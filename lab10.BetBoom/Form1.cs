@@ -25,7 +25,9 @@ namespace lab10.BetBoom
         const double SwedenLambda = 2;
         const double SpanishLambda = 1.8;
         const double FranceLambda = 1.7;
-        public int GetScore(double lambda) //Пуассон
+
+        //пуассоновское распределение
+        public int GetScore(double lambda)
         {
             Random random = new Random();
             double S = 0;
